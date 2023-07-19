@@ -1,0 +1,130 @@
+body{
+    padding-top:50px ;
+    padding-bottom: 700px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    height: 100px;
+}
+
+.left-header{
+   
+}
+
+.middle-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.right-header{
+    
+}
+
+.shop-button{
+    background-color: rgb(31, 31, 158);
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    transition: transform 0.15s;
+}
+
+.shop-button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    text-shadow: white 0px 0px 8px;
+}
+
+.home-header{
+    color: rgb(58, 58, 255);
+    font-size: 18px;
+}
+
+.home-header:hover{
+    cursor: pointer;
+}
+
+.services-header{
+    color: rgb(155, 143, 143);
+    font-size: 18px;
+    transition: cursor 0.15s;
+    display: flex;
+    align-items:center;
+}
+
+.services-tooltip{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:baseline;
+}
+
+.tooltip{
+    position: absolute;
+    width: 170px;
+    background-color: grey;
+    top
+
+}
+
+.down-triangle-icon{
+    margin-left: 5px;
+}
+
+
+.services-header:hover,
+.about-us-header:hover,
+.contact-header:hover {
+    cursor: pointer;
+}
+
+.about-us-header{
+    color: rgb(155, 143, 143);
+    font-size: 18px;
+    transition: cursor 0.15s;
+}
+
+.contact-header{
+    color: rgb(155, 143, 143);
+    font-size: 18px;
+    transition: cursor 0.15s;
+}
+
+.big-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(104, 176, 243);
+    padding-bottom: 180px;
+    padding-top: 100px;
+}
+
+.four-images{
+    width: 500px;
+}
+
+.main-text{
+    font-size: 45px;
+    width: 400px;
+}
